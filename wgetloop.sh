@@ -26,7 +26,7 @@ ulang=1
 while [ $ulang -le 10000000000 ]
   do
 wget  -i url.txt -P spam
-secs=$((10))
+secs=$((60))
 while [ $secs -gt 0 ]; do
    echo -ne "       " "$secs\033[0K\r"
    sleep 1
